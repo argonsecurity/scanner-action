@@ -1,0 +1,21 @@
+name: "argon-scanner"
+description: "Runs Argon Scanner on to find new vulnerabilities in PRs"
+inputs:
+  argon-token:
+    description: "Token provided by Argon. It is highly recommended to add it as a secret"
+    required: true
+  scanners:
+    description: "Multiline list of scanners to run. ie: sast, iac, dockerfiles, etc... defaults to all scanners"
+    required: false
+  audit-only:
+    description: "If true the action will never fail the workflow. defaults to false"
+    required: false
+    default: "false"
+  should-notify:
+    description: "If true a notification will be sent to the Slack/Teams channel of the customer when there are new findings. defaults to false"
+    required: false
+    default: "false"
+
+runs:
+  using: "docker"
+  image: "argonsecurity/scanner:github"
