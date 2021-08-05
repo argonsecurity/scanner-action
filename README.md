@@ -4,19 +4,19 @@ This action scans code for vulnerabilities.
 
 ## Inputs
 
-## `argon-token`
+#### `argon-token`
 
 **Required** Token provided by Argon. It is highly recommended to add it as a secret.
 
-## `scanners`
+#### `scanners`
 
 Multiline list of scanners to run. ie: sast, iac, dockerfiles, etc... defaults to all scanners.
 
-## `audit-only`
+#### `audit-only`
 
 If true the action will never fail the workflow. defaults to false.
 
-## `should-notify`
+#### `should-notify`
 
 If true a notification will be sent to the Slack/Teams channel of the customer when there are new findings. defaults to false.
 
