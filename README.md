@@ -6,7 +6,7 @@ Protect the first phase of your software supply chain
 
 #### `argon-token`
 
-**Required** Token provided by Argon. It is highly recommended to add it as a secret.
+**Required** Token provided by argon. This is sensitive, add this as a secret
 
 #### `scanners`
 
@@ -14,7 +14,7 @@ Multiline list of checks to run. Defaults to all.
 
 #### `audit-only`
 
-If true the action will never fail the workflow. defaults to false.
+If true the action will never fail the workflow. Defaults to false.
 
 #### `should-notify`
 
