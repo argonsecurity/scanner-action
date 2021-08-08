@@ -18,7 +18,7 @@ If true the action will never fail the workflow. defaults to false.
 
 #### `should-notify`
 
-If true a notification will be sent to the configured Slack/Teams channel on new findings. defaults to false.
+If true a notification will be sent to the configured Slack/Teams channel on new findings. Defaults to false.
 
 ## Example usage
 
