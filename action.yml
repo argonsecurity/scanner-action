@@ -1,18 +1,18 @@
 name: "argon-scanner"
-description: "Runs Argon Scanner on to find new vulnerabilities in PRs"
+description: "Runs argon checks on changes in PR"
 inputs:
   argon-token:
-    description: "Token provided by Argon. It is highly recommended to add it as a secret"
+    description: "Token provided by argon. This is sensitive, add this as a secret"
     required: true
   scanners:
-    description: "Multiline list of scanners to run. ie: sast, iac, dockerfiles, etc... defaults to all scanners"
+    description: "Multiline list of checks to run. Defaults to all"
     required: false
   audit-only:
     description: "If true the action will never fail the workflow. defaults to false"
     required: false
     default: "false"
   should-notify:
-    description: "If true a notification will be sent to the Slack/Teams channel of the customer when there are new findings. defaults to false"
+    description: "If true a notification will be sent to the configured Slack/Teams channel. defaults to false"
     required: false
     default: "false"
 
