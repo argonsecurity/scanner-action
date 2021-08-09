@@ -23,9 +23,10 @@ If true a notification will be sent to the configured Slack/Teams channel on new
 ## Example usage
 
 ```
-uses: actions/argon-security@v1
-with:
-  audit-only: true
-  should-notify: true
-  argon-token: "${{ secrets.ARGON_TOKEN }}"
+- name: Argon Security
+  uses: argonsecurity/scanner-action@v1.0
+  with:
+    audit-only: true
+    should-notify: true
+    argon-token: "${{ secrets.ARGON_TOKEN }}"
 ```
