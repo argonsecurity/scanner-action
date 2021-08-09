@@ -1,4 +1,4 @@
-# Argon scanner action
+# Argon Action
 
 Protect the first phase of your software supply chain
 
