@@ -22,4 +22,4 @@ inputs:
 
 runs:
   using: "docker"
-  image: "argonsecurity/scanner:github"
+  image: "docker://argonsecurity/scanner:github"
