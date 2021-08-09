@@ -1,4 +1,4 @@
-name: "argon-scanner"
+name: "Argon scanner"
 description: "Runs argon checks on changes in PR"
 inputs:
   argon-token:
