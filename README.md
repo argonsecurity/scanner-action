@@ -23,7 +23,7 @@ If true a notification will be sent to the configured Slack/Teams channel on new
 ## Example usage
 
 ```
-uses: actions/argon-scanner@v1
+uses: actions/argon-security@v1
 with:
   audit-only: true
   should-notify: true
