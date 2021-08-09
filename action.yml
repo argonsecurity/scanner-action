@@ -1,8 +1,8 @@
-name: "Argon scanner"
+name: "Argon"
 description: "Runs argon checks on changes in PR"
 author: "Argon"
 branding:
-  icon: "alert-triangle"
+  icon: "shield"
   color: "purple"
 inputs:
   argon-token:
