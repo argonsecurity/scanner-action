@@ -1,4 +1,4 @@
-name: "Argon"
+name: "Argon Security"
 description: "Runs argon checks on changes in PR"
 author: "Argon"
 branding:
