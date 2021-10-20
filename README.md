@@ -14,15 +14,15 @@ Multiline list of checks to run. Defaults to all.
 
 #### `audit-only`
 
-If true the action will never fail the workflow. Defaults to false.
+If true the action will never fail the workflow. Defaults to `false`.
 
 #### `should-notify`
 
-If true a notification will be sent to the configured Slack/Teams channel on new findings. Defaults to false.
+If true a notification will be sent to the configured Slack/Teams channel on new findings. Defaults to `false`.
 
-#### `should-comment`
+#### `disable-comments`
 
-If true argon will make comments on the pull request for each finding. Defaults to true.
+If true argon won't review the pull request with comments for each finding. Defaults to `false`.
 
 ## Example usage
 

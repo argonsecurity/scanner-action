@@ -19,10 +19,10 @@ inputs:
     description: "If true a notification will be sent to the configured Slack/Teams channel. Defaults to false"
     required: false
     default: "false"
-  should-comment:
-    description: "If true argon will make comments on the pull request for each finding. Defaults to true"
+  disable-comments:
+    description: "If true argon won't review the pull request with comments for each finding. Defaults to false"
     required: false
-    default: "true"
+    default: "false"
 
 runs:
   using: "docker"
