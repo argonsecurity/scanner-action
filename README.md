@@ -20,6 +20,10 @@ If true the action will never fail the workflow. Defaults to false.
 
 If true a notification will be sent to the configured Slack/Teams channel on new findings. Defaults to false.
 
+#### `should-comment`
+
+If true argon will make comments on the pull request for each finding. Defaults to true.
+
 ## Example usage
 
 ```
